@@ -1,3 +1,3 @@
 export function formatPrice(value) {
-  return '$' + value;
+  return '$' + value.toFixed(2);
 }
