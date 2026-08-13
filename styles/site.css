@@ -1,5 +1,5 @@
 body { font-family: Georgia, serif; margin: 2rem; }
-h1 { color: #8a2be2; }
+h1 { color: #c0392b; }
 
 @media (prefers-color-scheme: dark) {
   body { background: #1d1b19; color: #f3ede4; }
