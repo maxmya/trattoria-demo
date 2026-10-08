@@ -1,3 +1,3 @@
-export function formatPrice(value) {
-  return '$' + value.toFixed(2);
+export function formatPrice(value, currency = 'USD') {
+  return new Intl.NumberFormat('en-US', { style: 'currency', currency }).format(value);
 }
